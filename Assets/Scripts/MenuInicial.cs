@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuInicial : MonoBehaviour
 {
     public void iniciarJogo(){
-        SceneManager.LoadScene("Fase 1"); //Aqui definimos qual tela será carregada após apertar o botão de Iniciar
+        SceneManager.LoadScene("EscolhaPersonagem"); //Aqui definimos qual tela será carregada após apertar o botão de Iniciar
     }
 
     public void creditosJogos(){
